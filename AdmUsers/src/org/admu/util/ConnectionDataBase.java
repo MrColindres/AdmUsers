@@ -20,7 +20,7 @@ public class ConnectionDataBase {
 	public Connection init(){
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-			String url = "jdbc:mysql://localhost:3306/Users?&useSSL=false";
+			String url = "jdbc:mysql://localhost:3306/?user=root?&useSSL=false";
 			connection = DriverManager.getConnection(url,"binary_db","B!n@ry123");
 			
 			state = connection.createStatement();

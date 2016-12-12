@@ -11,7 +11,7 @@
 <body>
 	<div class='mui-container' style='margin-bottom: 5%'>
 		<div class="mui-panel" style="margin-top:10%; width:50%;box-shadow: 0 3px 3px 0 rgba(99, 165, 249, 0.9),0 2px 10px 0 rgba(0,0,0,0.12);" id="principal">
-			 <p class="sub_titulo" style="text-align:center">REINICIO DE CONTRASEÑA ACTIVE DIRECTORY</p>
+			 <p class="sub_titulo" style="text-align:center">INGRESA TUS CREDENCIALES</p>
                     <form action="ServletAuthUser.do" method="post">  
                     <div class="mui-textfield">
                         <input type="text" required name="userName" id="userName" />
